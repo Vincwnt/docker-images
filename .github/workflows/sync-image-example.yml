@@ -28,6 +28,7 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub 111
       run: |
          skopeo copy docker://docker.io/userxy2015/ngnix:latest docker://crpi-438evwh8l4ll3wli.cn-shanghai.personal.cr.aliyuncs.com/binaryrichard/ngnix:latest
+         skopeo copy docker://docker.io/homeassistant/home-assistant:latest docker://crpi-438evwh8l4ll3wli.cn-shanghai.personal.cr.aliyuncs.com/binaryrichard/home-assistant:latest
          
          
          
