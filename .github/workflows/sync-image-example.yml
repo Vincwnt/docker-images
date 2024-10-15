@@ -25,7 +25,7 @@ jobs:
         password: ${{secrets.DOCKER_PASSWORD}}
         logout: false
 
-    - name: Use Skopeo Tools Sync Image to Docker Hub
+    - name: Use Skopeo Tools Sync Image to Docker Hub 111
       run: |
          skopeo copy docker://docker.io/ngnix:latest docker://crpi-438evwh8l4ll3wli.cn-shanghai.personal.cr.aliyuncs.com/binaryrichard/ngnix:latest
          
